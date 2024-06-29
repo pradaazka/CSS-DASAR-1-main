@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Halaman Beranda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Laduni prada">
+        <meta name="nim" content="233307020">
+        <link rel="icon" type="img/png" href="html_advance/gambar/gambar.jpg">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            header{
+                background-color: lightseagreen;
+                padding: 1px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+            }
+            nav{
+                float: left;
+                width: 30%;
+                height: 250px;
+                background: #ccc;
+                padding: 10px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            article{
+                float: left;
+                padding: 15px;
+                width: 70%;
+                background-color: lightskyblue;
+                height: 420px;
+            }
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer{
+                background-color: burlywood;
+                padding: 1px;
+                text-align: center;
+                color: white;
+            }
+            @media (max-width: 600px){
+                nav, article{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Judul Website</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gambar.html">Gambar</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="svg.html">SVG</a></li>
+                    <li><a href="canvas.html">Canvas</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Gambar Pemandangan</h1>
+                    <img src="1png.jpg" width="200px" height="150">
+                    <img src="2.png.jpg" width="200px" height="150">
+                    <img src="3.png.jpg" width="200px" height="150">
+                    <img src="4.png.jpg" width="200px" height="150">
+                    <img src="5.png.jpg" width="200px" height="150">
+                    <img src="6.png.jpg" width="200px" height="150">
+                <p> <!--Tulis kesimpulan hasil ujicoba disini--></p>
+            </article>
+        </section>
+        <footer>
+            <p>Laduni prada</p> <!--ubah sesuai selera anda--->
+        </footer>
+    </body>
+</html>

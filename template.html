@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        header {
+            background-color:#3161c9;
+            color: #ebfa63;
+            text-align: left;
+            padding: 10px 0;
+            margin-bottom: 10px; 
+        }
+        header h1 {
+            color: #ebfa63; 
+            margin-bottom: 1px; 
+        }
+
+        header h3 {
+            color: #fff; 
+            margin-top: 1px; 
+        }
+        .container {
+            display: flex;
+            flex-direction: row; 
+            flex: 1; 
+        }
+
+        .sidebar {
+            background-color: #f4f4f4;
+            border: 2px dashed #4341aa;
+            flex: 0.5; 
+        }
+        .sidebar nav ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+        .sidebar nav ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar nav ul li a {
+                color: #333;
+                text-decoration: none;
+        }
+        .sidebar nav ul li:nth-child(5) a {
+            color: #616bf0; 
+            text-decoration: none; 
+        }
+        .sidebar nav ul li:nth-child(6) a:hover {
+            color: red; 
+            text-decoration: underline; 
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 30px;
+            text-align: center; 
+            flex: 1.5; 
+            margin-left: 5px;
+        }
+        .content h1 {
+            color: #000000; 
+            margin-bottom: 1px; 
+        }
+        .content h3 {
+            color: #292b1f;
+            margin-top: 1px; 
+        }
+        .content p {
+            color: #dd0000; 
+            margin-bottom: 1px;
+            margin-top: 1px; 
+        }
+        footer {
+            background-color: #83bfc7;
+            color: #000000;
+            text-align: right;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halo CSS !</h1>
+        <h3>Ini adalah website CSS saya</h3>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="margin.html">Menu 1</a></li>
+                    <li><a href="border-style.html">Menu 2</a></li>
+                    <li><a href="combination.html">Menu 3</a></li>
+                    <li><a href="simple.html">Menu 4</a></li>
+                    <li><a href="padding.html">Menu 5</a></li>
+                    <li><a href="hyperlink.html">Menu 6</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <img src="icon.png" width="15%" high="15%">
+            <h1>TI</h1>
+            <h3>Politeknik negeri Madiun</h3>
+            <p>Mewujudkan pendidikan tinggi vokasi dalam bisang</p>
+            <p>Teknologi Informasi dan penerapannya yang berkualitas,</p>
+            <p>inofatif dan berdaya saing Nasional.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Laduni prada | 233307020 | TI-2A</p>
+    </footer>
+</body>
+</html>
